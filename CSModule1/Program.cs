@@ -13,6 +13,23 @@ namespace CSModule1
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
+
+
+            DateTime myDate1 = DateTime.Now;
+            DateTime myDate2 = new DateTime(1996, 07, 11);
+
+            if (myDate1 > myDate2)
+            {
+                Console.WriteLine(myDate1 + " is greater than " + myDate2);
+            }
+            else
+            {
+                Console.WriteLine(myDate1 + " is less than " + myDate2);
+            }
+
+
+
+
         }
         static int MyIntMethod(int myValue1, int myValue2)
         {
@@ -38,5 +55,7 @@ namespace CSModule1
 
             return stringResult;
         }
+
+
     }
 }
